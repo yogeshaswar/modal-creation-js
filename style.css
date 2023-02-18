@@ -1,0 +1,40 @@
+* {margin: 0;}
+
+.container {
+    width: 100%;
+    padding: 40px;
+    background-color: bisque;
+    height: 100vh;
+}
+
+.btn {
+    padding: 10px;
+    background-color: coral;
+    color: white;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.modal {
+    width: 20%;
+    padding: 50px;
+    background-color: rgb(242, 247, 247);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    align-items: center;
+    visibility: hidden;
+}
+
+.modal-btn {
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: red;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
